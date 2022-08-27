@@ -1,0 +1,131 @@
+/* 전체 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  /* 배경화면 */
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+div {
+  background-color: #6E829C;
+  display: grid;
+  height: 650px;
+  width: 500px;
+  padding: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+
+p {
+    display: flex;
+    color: #e0e1dd;
+    justify-content: flex-end;
+    align-items: center;
+    grid-row: 1/2;
+    grid-column: 1/5;
+} 
+
+button {
+    border: 0px;
+    color: #e0e1dd;
+    background-color: #778da9;
+}
+
+button:hover {
+    background-color: #6F849E;
+}
+
+.c {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.divide {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.remainder {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.back {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.one {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.two {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.three {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.sum {
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+
+.four {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.five {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.six {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.sub {
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+
+.seven {
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+.eight {
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+
+.nine {
+    grid-row: 5/6;
+    grid-column: 3/4;
+}
+
+.multiply {
+    grid-row: 5/6;
+    grid-column: 4/5;
+}
+
+.zero {
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+
+.result {
+    grid-row: 6/7;
+    grid-column: 4/5;
+}
