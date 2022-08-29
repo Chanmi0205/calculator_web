@@ -11,6 +11,7 @@ body {
   margin-top: 50px;
 }
 
+/* 계산기 전체 묶음 */
 div {
   background-color: #6E829C;
   display: grid;
@@ -21,6 +22,7 @@ div {
   grid-template-rows: repeat(7, 1fr);
 }
 
+/* 입력값 및 계산 결과,,, 글씨 */
 p {
     display: flex;
     color: #e0e1dd;
@@ -30,6 +32,7 @@ p {
     grid-column: 1/5;
 } 
 
+/* 전체 버튼 */
 button {
     border: 0px;
     color: #e0e1dd;
@@ -40,6 +43,7 @@ button:hover {
     background-color: #6F849E;
 }
 
+/* 계산기 버튼 정렬 */
 .c {
     grid-row: 2/3;
     grid-column: 1/2;
