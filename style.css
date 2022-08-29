@@ -43,7 +43,7 @@ button:hover {
     background-color: #6F849E;
 }
 
-/* 계산기 버튼 정렬 */
+/* 계산기 버튼 정렬 ㅈ*/
 .c {
     grid-row: 2/3;
     grid-column: 1/2;
