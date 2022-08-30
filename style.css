@@ -43,6 +43,11 @@ button:hover {
     background-color: #6F849E;
 }
 
+input {
+    border : 0;
+    background-color: #6E829C;
+}
+
 /* 계산기 버튼 정렬 ㅈ*/
 .c {
     grid-row: 2/3;
